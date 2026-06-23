@@ -68,7 +68,7 @@ function creatposts(arr) {
   arr.forEach((ele) => {
     result += `
     <div class="col-md-3 mt-3"  id="${ele.id}">
-            <div class="card shadow">
+            <div class="card h-100 shadow">
               <div class="card-header  text-center text-light">
                 <h2>${ele.userId}</h2>
               </div>
@@ -108,7 +108,7 @@ function creatsingleCard(obj) {
   div.className = "col-md-3 mt-4";
   div.id = obj.id;
   div.innerHTML = `
-  <div class="card shadow">
+  <div class="card h-100  shadow">
       <div class="card-header  text-center text-light">
       <h2>${obj.userId}</h2>
   </div>
@@ -178,7 +178,7 @@ function updateOnUI(body) {
   let div = document.getElementById(updateId);
   div.className = "col-md-3 mt-4";
   div.innerHTML = `
-  <div class="card shadow">
+  <div class="card h-100  shadow">
   <div class="card-header  text-center text-light" >
     <h2>${body.userId}</h2>
   </div>
