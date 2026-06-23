@@ -1,0 +1,51 @@
+.card-header h2{
+    height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.card{
+    height: 100%;
+}
+.card-header{
+    background-color: transparent;
+    background-color: rgb(187, 4, 86);
+}
+body{
+    min-height: 100vh;
+    /* background-image: url("../images/360_F_278175694_cfZVupdpAM0R6Yf3EeFJV85audHjgmL8.jpg"); */
+    background-color: rgb(142, 242, 239);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.spinner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.crd-body p {
+    background-color: chartreuse;
+    padding: 5px;border-radius: 10px;
+    background-color: transparent;
+
+
+}
+.card-footer{
+    background-color: rgb(54, 52, 53);
+
+
+}
+.card-body{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
