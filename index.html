@@ -15,33 +15,25 @@
     />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
 
-    <title>TODO-02-GEN</title>
+    <title>TODO-03-GEN</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 offset-md-3">
-          <div class="card shadow-lg border border-danger mt-4">
-            <div class="card-header text-center text-light border rounded">
-              <h2>TODO</h2>
-            </div>
+          <div class="card  shadow-lg border border-danger mt-4 ">
+            <div class="card-header text-center text-light"><h2>TODO</h2></div>
             <form class="form-group p-3" id="todoForm">
               <div>
                 <label class="font-weight-bold" for="title">Title*</label>
-                <input
-                  required
-                  type="text"
-                  class="form-control"
-                  id="title"
-                  placeholder="Enter Title"
-                />
+                <input required type="text"  class="form-control" id="title" placeholder="Enter Title"/>
               </div>
               <div>
                 <label class="font-weight-bold" for="body">Status*</label>
-                <select required class="form-control" id="completed">
-                  <option value="true">Completed</option>
-                  <option value="false">Pending</option>
-                </select>
+               <select required class="form-control" id="completed">
+                <option value="true">Completed</option>
+                <option value="false">Pending</option>
+              </select>
               </div>
               <div>
                 <label class="font-weight-bold" for="">User ID*</label>
@@ -58,16 +50,13 @@
                   <option value="10">10</option>
                 </select>
               </div>
-              <button
-                class="btn btn-primary btn-sm btn-block mt-4"
-                id="addButton"
-              >
+              <button class="btn btn-primary btn-sm btn-block mt-4" id="addbt">
                 Add Todo
               </button>
               <button
                 type="button"
-                class="btn btn-success btn-sm btn-block mt-4 d-none"
-                id="updateButton"
+                class="btn btn-primary btn-sm btn-block mt-4  d-none"
+                id="updatId"
               >
                 Update Todo
               </button>
@@ -75,15 +64,17 @@
           </div>
         </div>
       </div>
-      <div class="row mt-5" id="cardContaier"></div>
+      <div class="row mt-5" id="cardContaier">
+        </div>
+      </div>
     </div>
+
 
     <div class="spinner d-none" id="spinner">
       <div class="spinner-border text-primary" role="status">
         <span class="visually-hidden"></span>
       </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./assets/JS/app.js"></script>
   </body>

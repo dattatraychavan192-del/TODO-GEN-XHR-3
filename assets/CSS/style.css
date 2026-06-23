@@ -5,12 +5,15 @@
     text-overflow: ellipsis;
 
 }
-.card{
-    height: 100%;
-}
+   .card {
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
 .card-header{
     background-color: transparent;
-    background-color: rgb(187, 4, 86);
+    background-color: rgb(2, 35, 84);
+    border-radius: 50px;
+
 }
 body{
     min-height: 100vh;
@@ -40,8 +43,7 @@ body{
 
 }
 .card-footer{
-    background-color: rgb(54, 52, 53);
-
+    background-color: rgb(2, 35, 84);
 
 }
 .card-body{
